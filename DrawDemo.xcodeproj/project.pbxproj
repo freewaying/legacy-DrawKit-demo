@@ -535,9 +535,15 @@
 /* Begin PBXProject section */
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "DrawDemo" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* GCDrawDemo */;
 			projectDirPath = "";
 			projectReferences = (
@@ -787,10 +793,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA80733D0DA4951B005BCAA0 /* DrawDemo.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -827,10 +830,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA80733D0DA4951B005BCAA0 /* DrawDemo.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
@@ -894,9 +894,9 @@
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "../../../DrawKit/Trunk/Source/build/Debug/GCDrawKit.framework/**";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx;
 				SYMROOT = ../../../DrawKit/Trunk/Source/build;
 				VISIBLE_VERSION_NUMBER = 1.0b7;
 				WARNING_CFLAGS = (
@@ -943,9 +943,9 @@
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "../../../DrawKit/Trunk/Source/build/Release/GCDrawKit.framework/**";
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx;
 				SYMROOT = ../../../DrawKit/Trunk/Source/build;
 				VISIBLE_VERSION_NUMBER = 1.0b7;
 				WARNING_CFLAGS = (
