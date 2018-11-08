@@ -72,7 +72,7 @@ static	GCSpecialColorWell* sCurrentActiveWell = nil;
 #pragma mark As an NSObject
 + (void)		load
 {
-	[GCSpecialColorWell poseAsClass:[NSColorWell class]];
+//    [GCSpecialColorWell poseAsClass:[NSColorWell class]];
 }
 
 
