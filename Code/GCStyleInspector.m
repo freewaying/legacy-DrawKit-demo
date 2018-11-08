@@ -21,7 +21,7 @@
 #import "GCBasicDialogController.h"
 
 #import <QuartzCore/CIFilter.h>
-#import <GCDrawKit/NSShadow+Scaling.h>
+#import <DKDrawKit/NSShadow+Scaling.h>
 
 
 @implementation GCStyleInspector

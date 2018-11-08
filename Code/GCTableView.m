@@ -2,8 +2,8 @@
 #import "GCColourPickerView.h"
 #import "GCWindowMenu.h"
 
-#import <GCDrawKit/DKGradient+UISupport.h>
-#import <GCDrawKit/NSColor+DKAdditions.h>
+#import <DKDrawKit/DKGradient+UISupport.h>
+#import <DKDrawKit/NSColor+DKAdditions.h>
 
 @implementation GCTableView
 #pragma mark As an NSTableView

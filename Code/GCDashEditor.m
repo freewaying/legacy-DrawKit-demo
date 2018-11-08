@@ -15,7 +15,7 @@
 #import "GCDashEditor.h"
 #import "GCDashEditView.h"
 
-#import <GCDrawKit/DKStrokeDash.h>
+#import <DKDrawKit/DKStrokeDash.h>
 
 
 @implementation GCDashEditor

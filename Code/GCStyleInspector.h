@@ -13,7 +13,7 @@
 ///**********************************************************************************************************************************
 
 #import <Cocoa/Cocoa.h>
-#import <GCDrawKit/DKDrawkit.h>
+#import <DKDrawKit/DKDrawkit.h>
 
 @interface GCStyleInspector : DKDrawkitInspectorBase
 {
